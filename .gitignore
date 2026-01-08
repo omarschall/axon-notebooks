@@ -1,4 +1,9 @@
 # Ignore everything except notebooks
+# Ignore all files
 *
+# But allow directories (so we can traverse into them)
+!*/
+# Allow .ipynb files anywhere
 !*.ipynb
+# Allow .gitignore itself
 !.gitignore
